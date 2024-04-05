@@ -7,6 +7,8 @@ import lombok.Setter;
 @Setter
 public class UserResponse {
 
+    private Long id;
     private String email;
-    private String password;
+    private String username;
+    private String token;
 }
